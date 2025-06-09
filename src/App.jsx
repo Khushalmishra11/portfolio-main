@@ -56,6 +56,16 @@ function App() {
                   techStack="React.js, Tailwind CSS"
                   githubLink="https://github.com/Khushalmishra11/portfolio-main.git"
                 />
+                <Project
+                  title="UiFry WebPage!"
+                  techStack="React.js, Tailwind CSS"
+                  githubLink="https://github.com/Khushalmishra11/Uifry-landingPage.git"
+                />
+                <Project
+                  title="Uber Clone!"
+                  techStack="React.js,NodeJS, MongoDB,Express, Tailwind CSS"
+                  githubLink="https://github.com/Khushalmishra11/uberClone.git"
+                />
               </div>
             </section>
 

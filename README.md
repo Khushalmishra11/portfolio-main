@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio template built with React, Tailwind CSS, and EmailJS. Features include a smooth scroll navigation, contact form, downloads section, and social media integration.
 
-🌐 **Live demo:** [Khushal mishra]()
+🌐 **Live demo:** [Khushalmishra.netlify.app](https://khushalmishra.netlify.com)
 
 ## 🌟 Features
 

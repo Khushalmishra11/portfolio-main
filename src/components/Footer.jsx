@@ -1,5 +1,6 @@
 import React from "react";
-import { FaInstagram, FaLinkedin, FaTiktok, FaGithub } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaTiktok, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaX } from "react-icons/fa6";
 import { Link } from "react-scroll";  // Import Link from react-scroll
 
 function Footer() {
@@ -9,24 +10,21 @@ function Footer() {
         <div className="text-center space-y-8 sm:space-y-4">
           {/* Social Media Links */}
           <div className="flex justify-center space-x-6 sm:pt-0">
-            <a href="https://github.com/mitso2005" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition">
+            <a href="https://github.com/khushalmishra11/" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition">
               <FaGithub size={24} />
             </a>
-            <a href="https://www.linkedin.com/in/dimitrios-petrakis-719443269/" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition">
+            <a href="https://www.linkedin.com/in/khushalmishra11/" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition">
               <FaLinkedin size={24} />
             </a>
-            <a href="https://www.instagram.com/dimitri_petrakis" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition">
-              <FaInstagram size={24} />
-            </a>
-            <a href="https://www.tiktok.com/@dimitri_petrakis" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition">
-              <FaTiktok size={24} />
+            <a href="https://x.com/khushal_mishra_" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition">
+              <FaTwitter size={24} />
             </a>
           </div>
 
           {/* Navigation Links */}
           <nav>
             <ul className="flex justify-center space-x-6 text-sm">
-              {["About", "Downloads", "Projects", "Work", "Contact"].map((item) => (
+              {["About", "Projects", "Work", "Contact"].map((item) => (
                 <li key={item}>
                   <Link
                     to={item.toLowerCase()} // Scroll to the corresponding section
@@ -44,7 +42,7 @@ function Footer() {
 
           {/* Copyright & Tech Stack */}
           <p className="text-xs text-gray-400 pb-6 sm:pb-0">
-            © {new Date().getFullYear()} Dimitri Petrakis. Built with React & Tailwind CSS.
+            © {new Date().getFullYear()} Khushal Mishra. Built with React & Tailwind CSS.
           </p>
         </div>
       </div>

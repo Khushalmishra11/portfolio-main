@@ -3,7 +3,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import LoadingSpinner from "./components/LoadingSpinner";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
-import Downloads from "./components/Downloads";
+// import Downloads from "./components/Downloads";
 import Footer from "./components/Footer";
 import Project from "./components/Project";
 // import DownloadDescription from "./components/DowloadDescription";
@@ -37,17 +37,6 @@ function App() {
               <About />
             </section>
 
-            {/* <section id="downloads"> */}
-              {/* <div className="flex items-center justify-center w-full py-8 bg-gray-100"> */}
-                {/* <div className="flex flex-col md:flex-row max-w-7xl mx-auto items-center gap-8 md:gap-20 px-4"> */}
-                  {/* Left: Description */}
-                  {/* <DownloadDescription /> */}
-
-                  {/* Right: Download Form */}
-                  {/* <Downloads /> */}
-                {/* </div> */}
-              {/* </div> */}
-            {/* </section> */}
 
             <section id="projects">
               <div className="max-w-7xl mx-auto px-4 py-8 bg-white">
@@ -55,28 +44,28 @@ function App() {
                 <Project
                   title="Blooming Filter"
                   techStack="JavaScript, HTML"
-                  githubLink="https://github.com/mitso2005/seekscraper"
+                  githubLink="https://github.com/Khushalmishra11/Bloom_Filter.git"
                 />
+                <Project
+                  title="Internshala Automation"
+                  techStack="Puppetor, JavaScript"
+                  githubLink="https://github.com/Khushalmishra11/Internshala_automation.git"
+                  />
                 <Project
                   title="This Portfolio!"
                   techStack="React.js, Tailwind CSS"
-                  githubLink="https://github.com/mitso2005/portfolio"
-                />
-                <Project
-                  title="Greenpad"
-                  techStack="JavaScript, HTML, CSS"
+                  githubLink="https://github.com/Khushalmishra11/portfolio-main.git"
                 />
               </div>
             </section>
 
             <section id="work">
               <div className="max-w-7xl mx-auto px-4 py-8 bg-white">
-                <h2 className="text-3xl font-bold mb-2">Relevant Work Experience</h2>
+                <h2 className="text-3xl font-bold mb-2">Academic Work Experience</h2>
                 <Work
-                  title="Web Developer"
-                  company="YellaTerra"
-                  time="2024 - Present"
-                  website="https://store.yellaterra.com.au/"
+                  title="Team Member"
+                  company="DIT X Microsoft"
+                  time="2023 - Present"
                 />
               </div>
             </section>

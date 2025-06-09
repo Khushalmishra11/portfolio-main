@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { FaGithub, FaLinkedin, FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaTwitter, FaMedium, FaCode } from "react-icons/fa";
 
 function Navbar() {
   return (
@@ -9,7 +9,7 @@ function Navbar() {
       <nav className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
         {/* Navigation Links */}
         <ul className="flex justify-center space-x-3 sm:space-x-6">
-          {["About", "Downloads", "Projects", "Work", "Contact"].map((item) => (
+          {["About", "Projects", "Work", "Contact"].map((item) => (
             <li key={item}>
               <Link
                 to={item.toLowerCase()} 
@@ -29,21 +29,25 @@ function Navbar() {
 
         {/* Social Links - hidden on mobile */}
         <div className="hidden sm:flex space-x-3">
-          <a href="https://github.com/mitso2005" target="_blank" rel="noopener noreferrer" 
+          <a href="https://github.com/khushalmishra11" target="_blank" rel="noopener noreferrer" 
              className="hover:text-red-500 transition-colors">
             <FaGithub size={20} />
           </a>
-          <a href="https://www.linkedin.com/in/dimitrios-petrakis-719443269/" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.linkedin.com/in/khushalmishra11/" target="_blank" rel="noopener noreferrer"
              className="hover:text-red-500 transition-colors">
             <FaLinkedin size={20} />
           </a>
-          <a href="https://www.instagram.com/dimitri_petrakis" target="_blank" rel="noopener noreferrer"
+          <a href="https://x.com/khushal_mishra_" target="_blank" rel="noopener noreferrer"
              className="hover:text-red-500 transition-colors">
-            <FaInstagram size={20} />
+            <FaTwitter size={20} />
           </a>
-          <a href="https://www.tiktok.com/@dimitri_petrakis" target="_blank" rel="noopener noreferrer"
+          <a href="https://leetcode.com/u/khushalmishra11/" target="_blank" rel="noopener noreferrer"
              className="hover:text-red-500 transition-colors">
-            <FaTiktok size={20} />
+            <FaCode size={20} />
+          </a>
+          <a href="https://medium.com/@khushalmishra11" target="_blank" rel="noopener noreferrer"
+             className="hover:text-red-500 transition-colors">
+            <FaMedium size={20} />
           </a>
         </div>
       </nav>

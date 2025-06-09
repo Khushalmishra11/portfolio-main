@@ -67,6 +67,11 @@ function App() {
                   company="DIT X Microsoft"
                   time="2023 - Present"
                 />
+                <Work
+                  title="Core Member"
+                  company="Core Team, DIT"
+                  time="2023 "
+                />
               </div>
             </section>
 

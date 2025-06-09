@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaLinkedin, FaTiktok, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaTiktok, FaGithub, FaTwitter, FaCode } from "react-icons/fa";
 import { FaX } from "react-icons/fa6";
 import { Link } from "react-scroll";  // Import Link from react-scroll
 
@@ -18,6 +18,9 @@ function Footer() {
             </a>
             <a href="https://x.com/khushal_mishra_" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition">
               <FaTwitter size={24} />
+            </a>
+            <a href="https://leetcode.com/u/khushalmishra11" target="_blank" rel="noopener noreferrer" className="hover:text-red-500 transition">
+              <FaCode size={24} />
             </a>
           </div>
 

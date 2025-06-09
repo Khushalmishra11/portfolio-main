@@ -64,7 +64,7 @@ const Contact = () => {
                         />
                     </div>
                     <div className="form-group">
-                        <label htmlFor="topic" className="block text-sm font-medium text-gray-700">Topic</label>
+                        <label htmlFor="topic" className="block text-sm font-medium text-gray-700">Name</label>
                         <input
                             type="text"
                             id="topic"

@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio template built with React, Tailwind CSS, and EmailJS. Features include a smooth scroll navigation, contact form, downloads section, and social media integration.
 
-🌐 **Live demo:** [dimitripetrakis.com](https://dimitripetrakis.com)
+🌐 **Live demo:** [Khushal mishra]()
 
 ## 🌟 Features
 
@@ -28,7 +28,7 @@ A modern, responsive portfolio template built with React, Tailwind CSS, and Emai
 
 1. Clone this repository
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
+   git clone https://github.com/khushalmishra11/portfolio-main.git
    cd portfolio
    ```
 
@@ -37,9 +37,9 @@ A modern, responsive portfolio template built with React, Tailwind CSS, and Emai
    npm install
    ```
 
-3. Create a `.env` file based on `.env.example`
+3. Create a `.env`
    ```bash
-   cp .env.example .env
+   cp .env
    ```
 
 4. Configure EmailJS
@@ -53,47 +53,6 @@ A modern, responsive portfolio template built with React, Tailwind CSS, and Emai
 npm run dev
 ```
 
-## 📝 Customization
-
-### 1. Personal Information
-Edit `src/components/About.jsx`:
-- Update profile image
-- Modify graduation date
-- Change tech stack icons
-- Edit personal description
-
-### 2. Projects
-Edit `src/App.jsx`:
-```jsx
-<Project
-  title="Your Project"
-  techStack="Technologies used"
-  githubLink="https://github.com/..."
-/>
-```
-
-### 3. Work Experience
-Edit `src/App.jsx`:
-```jsx
-<Work
-  title="Position"
-  company="Company Name"
-  time="2024 - Present"
-  website="https://company.com"
-/>
-```
-
-### 4. Social Links
-Keep these social media links updated in `src/components/Footer.jsx`:
-```jsx
-<a href="https://www.instagram.com/dimitri_petrakis">
-<a href="https://www.linkedin.com/in/dimitrios-petrakis-719443269/">
-<a href="https://www.tiktok.com/@dimitri_petrakis">
-<a href="https://github.com/mitso2005">
-```
-
-### 5. Resume
-Replace `public/DimitriResume.pdf` with your own resume file.
 
 ## 📧 EmailJS Setup
 
@@ -137,8 +96,9 @@ Feel free to fork this repository and submit pull requests. For major changes, p
 
 ## 👏 Acknowledgments
 
-Original template by Dimitri Petrakis
-- [Instagram](https://www.instagram.com/dimitri_petrakis)
-- [LinkedIn](https://www.linkedin.com/in/dimitrios-petrakis-719443269/)
-- [TikTok](https://www.tiktok.com/@dimitri_petrakis)
-- [GitHub](https://github.com/mitso2005)
+Original template by Khushal Mishra
+- [LinkedIn](https://www.linkedin.com/in/khushalmishra11/)
+- [TikTok](https://x.com/khushal_mishra_)
+- [GitHub](https://github.com/khushalmishra11)
+- [LeetCode](https://leetcode.com/u/khushalmishra11)
+- [Medium](https://medium.com/@khushalmishra11)

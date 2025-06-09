@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import profileImg from "../assets/dimitri.webp";
+import profileImg from "../assets/Khushal.webp"; // Adjust the path as necessary
 import { 
     SiJavascript, SiReact, SiPython, SiTailwindcss, 
     SiHtml5, SiCss3, SiMysql, 

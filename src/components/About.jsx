@@ -5,7 +5,8 @@ import {
     SiHtml5, SiCss3, SiMysql, 
     SiNodedotjs,
     SiAndroid,
-    SiAndroidstudio
+    SiAndroidstudio,
+    SiMongodb
 } from 'react-icons/si';
 import { DiJava } from 'react-icons/di';
 import { TbBrandCpp } from 'react-icons/tb';
@@ -91,6 +92,12 @@ function About() {
                             </div>
                             <div className="flex flex-col items-center group">
                                 <SiMysql className="text-4xl text-blue-400 group-hover:scale-110 transition-transform" />
+                            </div>
+                            <div className="flex flex-col items-center group">
+                                <SiNodedotjs className="text-4xl text-blue-400 group-hover:scale-110 transition-transform" />
+                            </div>
+                            <div className="flex flex-col items-center group">
+                                <SiMongodb className="text-4xl text-green-500 group-hover:scale-110 transition-transform" />
                             </div>
                         </div>
                     </div>

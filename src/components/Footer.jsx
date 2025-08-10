@@ -45,7 +45,7 @@ function Footer() {
 
           {/* Copyright & Tech Stack */}
           <p className="text-xs text-gray-400 pb-6 sm:pb-0">
-            © {new Date().getFullYear()} Khushal Mishra. Built with React & Tailwind CSS.
+            © {new Date().getFullYear()} Khushal Mishra.
           </p>
         </div>
       </div>
